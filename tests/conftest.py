@@ -16,6 +16,7 @@ def pytest_addoption(parser):
     Returns:
         (None)
     """
+    # Modify
     parser.addoption("--slow", action="store_true", default=False, help="Run slow tests")
 
 
